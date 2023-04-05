@@ -5,8 +5,8 @@ import BingoGame from '@/helpers/BingoGame';
 
 export const GameContext = createContext({
   gameState: false,
-  setGameState: (s: boolean) => {},
+  setGameState: (_: boolean) => {},
 
   game: new BingoGame(0),
-  setGame: (g: BingoGame) => {},
+  setGame: (_: BingoGame) => {},
 });
